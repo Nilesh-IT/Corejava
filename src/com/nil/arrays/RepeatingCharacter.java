@@ -1,4 +1,4 @@
-package com.example;
+package com.nil.arrays;
 
 import java.util.Arrays;
 import java.util.HashMap;

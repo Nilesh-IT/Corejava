@@ -19,7 +19,7 @@ public class SecondLargestJava8 {
 
         OptionalInt max = Arrays.stream(arr).max();
         OptionalInt secondMax = Arrays.stream(arr).filter(i -> i < max.getAsInt()).max();
-
+       
         if (secondMax.isPresent()) {
             System.out.println("\nLargest number is: " + max.getAsInt());
             System.out.println("Second largest number is: " + secondMax.getAsInt());
